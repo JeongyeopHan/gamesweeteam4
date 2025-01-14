@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_height="0dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dp"
+    android:layout_rowWeight="1"
+    android:layout_columnWeight="1"
+    android:scaleType="fitXY"
+    android:gravity="center"
+    android:id="@+id/button_x"
+    >
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp"
+        android:background="@drawable/key_back"
+        android:scaleType="fitXY"
+        android:contentDescription="TODO"
+        android:onClick="append"
+        android:id="@+id/snull"
+        >
+    </ImageButton>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:clickable="false"
+        android:gravity="center"
+        android:scaleType="fitXY"
+        android:text="@null"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+</FrameLayout>

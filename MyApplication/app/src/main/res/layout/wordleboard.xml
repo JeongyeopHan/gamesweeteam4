@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_height="0dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0dp"
+    android:layout_rowWeight="1"
+    android:layout_columnWeight="1"
+    android:scaleType="fitXY"
+    android:gravity="center"
+    android:id="@+id/wordleBox"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:background= "@drawable/wordlebox"
+        android:scaleType="fitXY"
+        android:contentDescription="TODO"
+        android:onClick="append"
+        android:id="@+id/snull"
+        >
+    </ImageView>
+
+    <TextView
+        android:id="@+id/gridText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:clickable="false"
+        android:gravity="center"
+        android:scaleType="fitXY"
+        android:text="@null"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+</FrameLayout>
